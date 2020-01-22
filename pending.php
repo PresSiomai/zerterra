@@ -679,24 +679,12 @@ text-align: justify-all;
                         <input class="input1" type="text" name="edit_address" disabled value="<?php echo $Message; ?>"  required="">
                       </div>
                         <div class="control" style="margin-top: 10px;">
-                        
-                       <!-- <div class="select">
-                         <select style="width: 1000px; padding-top:5px; border:solid 1px;" name="role"required="">
-                          <option >Super Admin</option>
-                          <option>Admin</option>
-                         </select>
-                      </div> -->
                       </div>
                       </div>
                       <button type="submit" class="button is-success" name="btn_add_user">Approve</button>
                       </div>
 
-                      
-                      
-                      
-
                     </form>
-
                     </div>
                   </div>
                 </div>

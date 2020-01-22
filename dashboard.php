@@ -339,6 +339,14 @@ font-family: 'Montserrat' , sans-serif;
   left: 0;
 }
 
+.box {
+  height: 120px;
+  width: 270px;
+}
+
+#text {
+  font-size: 13px;
+}
   </style>
 
 </head>
@@ -458,7 +466,7 @@ font-family: 'Montserrat' , sans-serif;
     margin-top: 10px;
     width: 500px;
 ">
-  DASHBOARD
+  DASHBOARDD
   </div>
 
 
@@ -466,9 +474,175 @@ font-family: 'Montserrat' , sans-serif;
 </section>
 
 
-<!-- DASHBOARD PICTURE -->
-<div>
-  <img src="images/dashboard.png" style="width:100%; max-width: 1100px; height:503px;  padding-left: 95px; margin-bottom: 0px; padding-right: 0px; " >
+<div class="columns" style="margin-left: 170px;">
+
+<!-- column 1 -->
+
+  <div class="column" id="text">
+<div class="box" >
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          Registered User :
+        </p>
+        
+
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" aria-label="reply">
+            <span class="icon is-small">
+              <i class="fas fa-reply" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="retweet">
+            <span class="icon is-small">
+              <i class="fas fa-retweet" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="like">
+            <span class="icon is-small">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>
+  </div>
+
+<!-- column 2 -->
+
+  <div class="column" id="text">
+<div class="box" >
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          Pending User :
+        </p>
+        
+
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" aria-label="reply">
+            <span class="icon is-small">
+              <i class="fas fa-reply" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="retweet">
+            <span class="icon is-small">
+              <i class="fas fa-retweet" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="like">
+            <span class="icon is-small">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>
+  </div>
+
+<!-- column 3 -->
+
+<div class="column" >
+<div class="box" >
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content" id="text">
+        <p>
+          Registered User :
+        </p>
+        
+
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" aria-label="reply">
+            <span class="icon is-small">
+              <i class="fas fa-reply" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="retweet">
+            <span class="icon is-small">
+              <i class="fas fa-retweet" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="like">
+            <span class="icon is-small">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>
+  </div>
+
+<!-- column 4 -->
+
+<div class="column" id="text">
+<div class="box" >
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-64x64">
+        <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <strong>Registered User :</strong>
+        </p>
+        
+
+      </div>
+      <nav class="level is-mobile">
+        <div class="level-left">
+          <a class="level-item" aria-label="reply">
+            <span class="icon is-small">
+              <i class="fas fa-reply" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="retweet">
+            <span class="icon is-small">
+              <i class="fas fa-retweet" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="level-item" aria-label="like">
+            <span class="icon is-small">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>
+  </div>
 
 </div>
 
@@ -490,8 +664,8 @@ function myFunction() {
     header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
-  }
-}
+  };
+};
 
 document.querySelectorAll('.modal-button').forEach(function(el) {
   el.addEventListener('click', function() {

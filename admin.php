@@ -473,7 +473,7 @@ font-family: 'Montserrat';
 <!-- text footer -->
 
   <footer>
-        <h5>ZERTERRA | 2022</h5>
+        <h5>ZERTERRA | 2020</h5>
     </footer>
 </div>
 
